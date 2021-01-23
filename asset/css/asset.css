@@ -194,8 +194,9 @@
     color: white;
     margin-top: 2%;
     margin-left: 11%;
-    cursor:grab;
+    cursor:pointer;
     padding-top: 10px;
+
 }
 
 /* .section-content style */
@@ -260,6 +261,16 @@
 
 .contact-us {
     text-align: center;
+}
+
+.footer-menu {
+    text-decoration : none;
+    color: white;
+}
+
+.footer-menu:hover {
+    text-decoration: none;
+    color: white;
 }
 
 
