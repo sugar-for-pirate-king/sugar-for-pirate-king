@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@media only screen and (min-width:1200px) {
+    .nav-item > .nav-link {
+        padding: 5px 20px !important;
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .header-inner {
+        background-color: white !important;
+    }
+
+    .nav-item > .nav-link {
+        color: black !important;
+    }
+
+    .logo {
+        color: #000 !important;
+        font-weight: 600 !important;
+    }    
+
+    .content-banner .first-title {
+        font-size: 30px !important;
+        margin-left: 0 !important;
+    }
+
+    .content-banner .banner-desc {
+        margin-left: 0 !important;
+    }
+
+    .btn-contact-us {
+        margin-left: 0 !important;
+    }
+
+    .main-content .section-content {
+        /* background-color: #ffffff; */
+        margin-top: 1% !important;
+        background-image: url('file:///C:/Users/Fauzan%20Ichwan/Desktop/sugar/sugar-startup/asset/img/bg-section.svg') !important;
+        background-size: cover !important;
+        height: 100vh !important;
+    }
+
+    .logo-white {
+        margin-top: 3% !important;
+        text-align: center !important;
+    }
+
+    .menu-footer {
+        margin-top: 3% !important;
+    }
+
+    .main-content .section-footer {
+        /* background-color: #ffffff; */
+        margin-top: 10% !important;
+        height: 30vh !important;
+    }
+    
+}
+
+.content-banner {
+    min-height: 400px;
+    height: 100%;
+    position: relative;
+    padding-top: 125px;
+}
+
+.content-banner .first-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 51px;
+    color: #152836;
+    margin-left: 11%;
+}
+
+.content-banner .banner-desc {
+    width: 333px;
+    height: 71px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+
+    /* Black */
+
+    color: #152836;
+    margin-left: 11%;
+}
+
+.content-banner:before {
+   position: absolute;
+   content: '';
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   z-index: 1;
+}
+
+.header {
+    position: relative;
+    width: 100%;   
+}
+
+.header-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: transparent;
+}
+
+.logo {
+    color: rgb(0, 0, 0);
+    font-weight: 600 !important;
+}
+
+.nav-item .nav-link {
+    display: block;
+    line-height: 36px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    transition: 0.15%;
+}
+
+.nav-item .nav-link:hover {
+    color: #66B9AA;
+}
+
+.navbar-scroll {
+    background-color: #ffffff;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    transition-duration: 0.6s;
+}
+
+.navbar-scroll .nav-item .nav-link {
+    color: rgb(0, 0, 0);
+}
+
+.navbar-scroll .logo {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+.main-content .section-content {
+    /* background-color: #ffffff; */
+    margin-top: 3%;
+    background-image: url('file:///C:/Users/Fauzan%20Ichwan/Desktop/sugar/sugar-startup/asset/img/bg-section.svg');
+    background-size: cover;
+    height: 80vh;
+}
+
+.main-content .section-footer {
+    /* background-color: #ffffff; */
+    margin-top: 10%;
+    background-color: #152836;
+    background-size: cover;
+    height: 20vh;
+}
+
+.main-content .section-footer p {
+    text-align: center;
+    color: white;
+}
+
+/* section:nth-of-type(even) {
+    background-color: #66B9AA;
+    color: white;
+} */
+
+.btn-contact-us {
+    width: 160px;
+    height: 48px;
+    background: linear-gradient(90deg, #69C0B0 0%, #36A38E 100%);
+    border-radius: 6px;
+    margin: auto;
+    color: white;
+    margin-top: 2%;
+    margin-left: 11%;
+    cursor:grab;
+}
+
+/* .section-content style */
+.main-content .section-content h2 {
+    text-align: center;
+}
+
+.main-content .section-content h2 {
+    margin-top: 10%;
+}
+
+.main-content .section-content .card-values h5 {
+    text-align: left;
+    font-weight: 600;
+}
+
+.main-content .section-content .card-values p {
+    text-align: left;
+}
+
+.main-content .section-content .inv::before {
+    content: '';
+    width: 61px;
+    height: 61px;
+    background-image: url('file:///C:/Users/Fauzan%20Ichwan/Desktop/sugar/sugar-startup/asset/img/inv.svg');
+    position: absolute;
+    display: block;
+    top: -2rem;
+    left: 7.4rem;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 3rem;
+}
+
+.main-content .section-content .imp::before {
+    content: '';
+    width: 61px;
+    height: 61px;
+    background-image: url('file:///C:/Users/Fauzan%20Ichwan/Desktop/sugar/sugar-startup/asset/img/imp.svg');
+    position: absolute;
+    display: block;
+    top: -2rem;
+    left: 7.4rem;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 3rem;
+}
+
+.main-content .section-content .simp::before {
+    content: '';
+    width: 61px;
+    height: 61px;
+    background-image: url('file:///C:/Users/Fauzan%20Ichwan/Desktop/sugar/sugar-startup/asset/img/simp.svg');
+    position: absolute;
+    display: block;
+    top: -2rem;
+    left: 7.4rem;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 3rem;
+}
+
+.contact-us {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+

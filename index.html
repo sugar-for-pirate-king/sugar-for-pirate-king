@@ -1,11 +1,222 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sugar web</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="asset/css/asset.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="apple-touch-icon" sizes="57x57" href="asset/img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="asset/img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="asset/img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="asset/img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="asset/img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="asset/img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="asset/img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="asset/img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="asset/img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="asset/img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="asset/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="asset/img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="asset/img/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Sugar</title>
 </head>
 <body>
-  <p>Hello, sugar team!</p>
+    <!-- navbar -->
+    <header class="header">
+        <div class="header-inner">
+            <nav class="navbar navbar-expand-lg my-navbar">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <span class="logo">
+                            <img src="asset/img/single-logo.svg">
+                            Sugar
+                        </span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><i class="fas fa-bars" style="margin: 5px 0px 0px 0px;"></i></span>
+                    </button>
+                    <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto flex-nowrap">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#Products">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#About">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#Contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- end of navbar -->
+
+    <!-- banner -->
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 content-banner">
+                    <div class="banner-con">
+                        <p class="first-title">Let`s Make it Happen!</p>
+                        <p class="banner-desc">A place where technology becomes something that makes all people's activities easier</p>
+                        <p>
+                            <button type="button" class="btn btn-contact-us">Contact Us</button>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 p-0 m-0 d-flex justify-content-end">
+                    <img src="asset/img/hero-il.svg" alt="" class="hero-il">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of banner -->
+    
+    <!-- main content -->
+    <div class="main-content">
+        <section class="section-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Our Values</h2>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-4">
+                        <center>
+                            <div class="card card-values inv p-2" style="width: 18rem;" data-aos="fade-right">
+                                <div class="card-body">
+                                    <h5 class="card-title">Innovation</h5>
+                                    <p class="card-text">Dare to innovate for each product so that it can provide added value according to client needs.</p>
+                                </div>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="col-md-4">
+                        <center>
+                            <div class="card card-values imp p-2" style="width: 18rem;" data-aos="fade-up">
+                                <div class="card-body">
+                                    <h5 class="card-title">Impact</h5>
+                                    <p class="card-text">Success must be an inclusive achievement in improving the quality of life.</p>
+                                </div>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="col-md-4">
+                        <center>
+                            <div class="card card-values simp p-2" style="width: 18rem;" data-aos="fade-left">
+                                <div class="card-body">
+                                    <h5 class="card-title">Simple</h5>
+                                    <p class="card-text">Creating a technology that makes life easier for many people.</p>
+                                </div>
+                            </div>
+                        </center>
+                    </div>
+                    <div id="About"></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container" >
+            <div class="row" >
+                <div class="col-md-6">
+                    <h2>Who are we ?</h2>
+                    <p>Sugar is a starttup that contains various kinds of products based in Jakarta. Our team consist of Philip as Programmer, Ian as Network Engineer and Fauzan as Designer.</p>
+                </div>
+                <div class="col-md-6" style="text-align: right;">
+                    <img src="https://sugar-for-pirate-king.github.io/asset/img/orang.svg" data-aos="zoom-in-up">
+                </div>
+            </div>
+        </div>
+
+        <section class="section-content" id="Products">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Our Products</h2>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-6" style="text-align: center;">
+                        <img src="https://sugar-for-pirate-king.github.io/asset/img/diari.svg" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                    </div>
+                    <div class="col-md-6" style="text-align: center;">
+                        <img src="https://sugar-for-pirate-king.github.io/asset/img/kelola.svg" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container" id="Contact">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="contact-us">Contact us</h2>
+                    <p style="text-align: center;">Click one of our contacts below to say hello.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" style="text-align: center;">
+                    <p><img src="https://sugar-for-pirate-king.github.io/asset/img/icon-email.svg">&nbsp;&nbsp;sugarstartup@gmail.com</p>
+                    <p><img src="https://sugar-for-pirate-king.github.io/asset/img/icon-ig.svg">&nbsp;&nbsp;sugar.startup</p>
+                    <p><img src="https://sugar-for-pirate-king.github.io/asset/img/icon-wa.svg">&nbsp;&nbsp;+6285973814784</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="section-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 logo-white" style="margin-top: 5%;">
+                        <img src="https://sugar-for-pirate-king.github.io/asset/img/sugar-white.svg">
+                    </div>
+                    <div class="col-md-1 menu-footer" style="margin-top: 5%;">
+                        <p>Products</p>
+                    </div>
+                    <div class="col-md-1 menu-footer"style="margin-top: 5%;">
+                        <p>About</p>
+                    </div>
+                    <div class="col-md-1 menu-footer" style="margin-top: 5%;">
+                        <p>Contact</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- end of main content -->
+    
+    <script src="asset/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" ></script>
+    <script type="text/javascript">
+        $(function() {
+            var navbar = $('.header-inner');
+            $(window).scroll(function() {
+                if ($(window).scrollTop() <= 40 ) {
+                    navbar.removeClass('navbar-scroll');
+                } else {
+                    navbar.addClass('navbar-scroll');
+                }
+            });
+        });
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
