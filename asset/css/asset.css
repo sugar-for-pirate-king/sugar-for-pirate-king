@@ -45,7 +45,7 @@
     .main-content .section-content {
         /* background-color: #ffffff; */
         margin-top: 1% !important;
-        background-image: url('file:///C:/Users/Fauzan%20Ichwan/Desktop/sugar/sugar-startup/asset/img/bg-section.svg') !important;
+        background-image: url('https://sugar-for-pirate-king.github.io/asset/img/bg-section.svg') !important;
         background-size: cover !important;
         height: 100vh !important;
     }
@@ -162,7 +162,7 @@
 .main-content .section-content {
     /* background-color: #ffffff; */
     margin-top: 3%;
-    background-image: url('file:///C:/Users/Fauzan%20Ichwan/Desktop/sugar/sugar-startup/asset/img/bg-section.svg');
+    background-image: url('https://sugar-for-pirate-king.github.io/asset/img/bg-section.svg');
     background-size: cover;
     height: 80vh;
 }
@@ -219,7 +219,7 @@
     content: '';
     width: 61px;
     height: 61px;
-    background-image: url('file:///C:/Users/Fauzan%20Ichwan/Desktop/sugar/sugar-startup/asset/img/inv.svg');
+    background-image: url('https://sugar-for-pirate-king.github.io/asset/img/inv.svg');
     position: absolute;
     display: block;
     top: -2rem;
@@ -233,7 +233,7 @@
     content: '';
     width: 61px;
     height: 61px;
-    background-image: url('file:///C:/Users/Fauzan%20Ichwan/Desktop/sugar/sugar-startup/asset/img/imp.svg');
+    background-image: url('https://sugar-for-pirate-king.github.io/asset/img/imp.svg');
     position: absolute;
     display: block;
     top: -2rem;
@@ -247,7 +247,7 @@
     content: '';
     width: 61px;
     height: 61px;
-    background-image: url('file:///C:/Users/Fauzan%20Ichwan/Desktop/sugar/sugar-startup/asset/img/simp.svg');
+    background-image: url('https://sugar-for-pirate-king.github.io/asset/img/simp.svg');
     position: absolute;
     display: block;
     top: -2rem;
